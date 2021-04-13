@@ -1,0 +1,67 @@
+.container {
+  width: 15rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  display: flex;
+  margin: 1rem;
+  padding: .5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.skillName {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.image {
+  width: 10rem;
+}
+
+@media only screen and (min-width: 416px) and (max-width: 575px) {
+  .image {
+    width: 5rem;
+  }
+
+  .container {
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1200px)  {
+  .container {
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 415px)  {
+  .image {
+    width: 5rem;
+  }
+
+  .container {
+    width: 7rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .image {
+    width: 3rem;
+  }
+
+  .container {
+    width: 5rem;
+    margin-bottom: 4rem;
+  }
+}

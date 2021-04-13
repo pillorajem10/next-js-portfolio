@@ -1,0 +1,16 @@
+ .container {
+   max-width: 50rem;
+   background-color: rgba(0, 0, 0, 0.6);
+   font-size: 1.2rem;
+   display: flex;
+   margin: 3rem;
+   padding: 0;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ .header {
+  font-size: 2rem;
+ }
