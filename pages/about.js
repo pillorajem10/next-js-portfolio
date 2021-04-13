@@ -18,7 +18,7 @@ const About = () => {
       <Head>
         <title>Jem Pillora | About</title>
       </Head>
-      <div>
+      <div> 
         <div data-aos="zoom-in" className={styles.container}>
           <div style={{padding: "1rem"}}>
             <p className={styles.header}>About Me</p>
