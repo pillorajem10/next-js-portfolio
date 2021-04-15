@@ -11,7 +11,9 @@ export default class MyDocument extends Document {
           {/* PWA primary color */}
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <meta name="description" content="Full-stack developer" />
+          <meta property="og:image" content="%PUBLIC_URL%/logo.png" key="ogimage" />
+          <meta property="og:description" content="Full-stack developer that can create your website for your business" key="ogdesc" />
+          {/*<meta name="description" content="Full-stack developer" />
           <meta name="keywords" content="full-stack developer, MERN stack developer, freelance developer" />
           <meta
             property="og:title"
@@ -33,7 +35,7 @@ export default class MyDocument extends Document {
             content="JemPillora"
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/>
+          <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/>*/}
         </Head>
         <body>
           <Main />

@@ -42,10 +42,8 @@ const Home = (props) => {
     <>
       <Head>
         <title>Jem Pillora</title>
-        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Full-stack developer" />
+{  /*      <meta name="description" content="Full-stack developer" />
         <meta name="keywords" content="full-stack developer, MERN stack developer, freelance developer" />
         <meta
           property="og:title"
@@ -67,7 +65,10 @@ const Home = (props) => {
           content="JemPillora"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/>
+        <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/> */}
+        <meta property="og:url" content="https://jempillora.vercel.app/" key="ogurl" />
+        <meta property="og:site_name" content="JemPillora" key="ogsitename" />
+        <meta property="og:title" content="JemPillora" key="ogtitle" />
       </Head>
       <div data-aos="zoom-in" className={styles.leftContainer}>
         <p className={styles.header}>Hi! My name is Jem Pillora</p>
