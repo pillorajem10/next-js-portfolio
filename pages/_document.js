@@ -9,9 +9,31 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* PWA primary color */}
-          <meta name="theme-color" content={theme.palette.primary.main} />
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+          <meta charSet="utf-8" />
+          <meta name="theme-color" content="#000000" />
+          <meta name="description" content="Full-stack developer" />
+          <meta name="keywords" content="full-stack developer, MERN stack developer, freelance developer" />
+          <meta
+            property="og:title"
+            content="JemPillora"
+            key="title"
+          />
+          <meta
+            property="og:description"
+            content="Full-stack developer that can create your website for your business"
+            key="description"
+          />
+          <meta
+            property="og:image"
+            content="%PUBLIC_URL%/favicon.jpeg"
+            key="image"
+          />
+          <meta
+            property="og:site_name"
+            content="JemPillora"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/>
         </Head>
         <body>
           <Main />

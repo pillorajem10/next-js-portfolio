@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 //material-ui
 import { Button, withStyles } from '@material-ui/core';
 
+
 // material-ui icons
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -41,6 +42,32 @@ const Home = (props) => {
     <>
       <Head>
         <title>Jem Pillora</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Full-stack developer" />
+        <meta name="keywords" content="full-stack developer, MERN stack developer, freelance developer" />
+        <meta
+          property="og:title"
+          content="JemPillora"
+          key="title"
+        />
+        <meta
+          property="og:description"
+          content="Full-stack developer that can create your website for your business"
+          key="description"
+        />
+        <meta
+          property="og:image"
+          content="%PUBLIC_URL%/favicon.jpeg"
+          key="image"
+        />
+        <meta
+          property="og:site_name"
+          content="JemPillora"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/>
       </Head>
       <div data-aos="zoom-in" className={styles.leftContainer}>
         <p className={styles.header}>Hi! My name is Jem Pillora</p>

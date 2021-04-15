@@ -7,35 +7,21 @@ import bg2 from '../public/images/bg2.jpg';
 import bg3 from '../public/images/bg3.jpg';
 import bg4 from '../public/images/bg4.jpg';
 
-//function for background-img shuffle
-const shuffle = (arr) => {
-  let currentIndex = arr.length;
-  let temporaryValue;
-  let randomIndex;
+//utils-methods
+import { shuffle } from '../utils/methods';
 
-  // While there remain elements to shuffle...
-  while (currentIndex !== 0) {
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = arr[currentIndex];
-    arr[currentIndex] = arr[randomIndex];
-    arr[randomIndex] = temporaryValue;
-  }
-
-  return arr;
-};
-
-//backgroundImg
+//backgroundImages
 const backgroundImg = shuffle([
-  bg, bg1, bg2, bg3, bg4
+  bg, bg1, bg2, bg3, bg4,
 ])[0];
 
 const Layout = ({children}) => {
   return (
-      <div style={{backgroundImage: `url(${backgroundImg})`}} className={styles.container}>
+      <div style={{
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundImage: `url(${backgroundImg})`
+      }} className={styles.container}>
         <main className={styles.main}>{children}</main>
       </div>
   )

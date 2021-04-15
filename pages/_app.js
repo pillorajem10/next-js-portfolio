@@ -13,7 +13,6 @@ import { useMediaQuery } from '@material-ui/core';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-
   const showNavbarLow = useMediaQuery("(max-width: 635px)");
 
   return (

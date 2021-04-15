@@ -11,7 +11,6 @@ import Link from 'next/link';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Container from '@material-ui/core/Container';
 import Slide from '@material-ui/core/Slide';
 
 
@@ -72,8 +71,6 @@ const HideAppBar = () => {
       </HideOnScroll>
       </nav>
       <Toolbar />
-      <Container>
-      </Container>
     </React.Fragment>
   );
 }
