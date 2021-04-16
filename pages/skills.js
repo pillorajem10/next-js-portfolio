@@ -24,8 +24,8 @@ const Skills = () => {
           data.skills.map((skill, idx) =>
             <div  className={styles.main} key={idx}>
               <a data-aos="zoom-in" href={skill.href} target="_blank" rel="noreferrer" className={styles.container} >
-                <div className={styles.skillName}>{skill.name}</div>
                 <img className={styles.image} src={skill.images} alt={skill.name}/>
+                <div className={styles.skillName}>{skill.name}</div>
               </a>
             </div>
           )
