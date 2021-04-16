@@ -88,7 +88,7 @@ export default function PersistentDrawerLeft() {
               </ListItem>
               <ListItem className={classes.navbarLowListItems}>
                 <ComputerIcon/>
-                <Link href="/about"><a className={classes.navbarLowLinks} onClick={handleDrawerClose}>About</a></Link>
+                <Link href="/services"><a className={classes.navbarLowLinks} onClick={handleDrawerClose}>Services</a></Link>
               </ListItem>
               <ListItem className={classes.navbarLowListItems}>
                 <InfoIcon/>

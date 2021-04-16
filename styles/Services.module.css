@@ -1,0 +1,49 @@
+.container {
+  width: 23rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.3rem;
+  display: flex;
+  height: 16rem;
+  margin: 1rem 1rem 0rem 1rem;
+  padding: .5rem;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+}
+
+.container:hover {
+  background-color: rgba(255,255,255, 0.4);
+  color: black;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+ .header {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+ }
+
+
+ /* media queries */
+ @media only screen and (max-width: 415px) {
+   .container {
+     width: 17rem;
+     font-size: 1.2rem;
+   }
+ }
+
+
+ @media only screen and (max-width: 1200px)  {
+   .container {
+     margin-bottom: 4rem;
+   }
+ }

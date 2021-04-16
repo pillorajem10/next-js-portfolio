@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image'
 
 import Head from 'next/head';
 import styles from '../styles/Skills.module.css';
@@ -22,13 +21,13 @@ const Skills = () => {
       </Head>
       <div className={styles.main}>
         {
-          data.skills.map(skill =>
-            <>
-              <a data-aos="zoom-in" href={skill.href} target="_blank" key={skill.key} rel="noreferrer" className={styles.container} >
-                  <img className={styles.image} src={skill.images} alt={skill.name}/>
-                  <div className={styles.skillName} key={skill.key}>{skill.name}</div>
+          data.skills.map((skill, idx) =>
+            <div  className={styles.main} key={idx}>
+              <a data-aos="zoom-in" href={skill.href} target="_blank" rel="noreferrer" className={styles.container} >
+                <div className={styles.skillName}>{skill.name}</div>
+                <img className={styles.image} src={skill.images} alt={skill.name}/>
               </a>
-            </>
+            </div>
           )
         }
       </div>

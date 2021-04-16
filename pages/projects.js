@@ -40,26 +40,16 @@ const Page = (props) => {
         <title>Jem Pillora | Projects</title>
       </Head>
       <div className={styles.main}>
-        <div data-aos="zoom-in" className={styles.container}>
+        <a href="https://rptgen.net/revamp/login" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
           <p className={styles.image}>Rptgen-v2 (Revamp)</p>
           <div className={styles.imageBg}><img className={styles.image} src={rptgen} alt="Rptgen revamp"/></div>
           <p>A report generating tool (PTP, DFR, RFA, PR2, etc). Developed by pillo, kula, colditz.</p>
-          <a href="https://rptgen.net/revamp/login" target="_blank" rel="noreferrer">
-            <Button className={classes.root}>
-              Check it out
-            </Button>
-          </a>
-        </div>
-        <div data-aos="zoom-in" className={styles.container}>
+        </a>
+        <a href="https://phrecipebook.org/" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
           <p className="container-title">PH Recipebook</p>
-          <img className={styles.image} src={rbook} alt="PH recipebook"/>
+          <div className={styles.imageBg1}><img className={styles.image} src={rbook} alt="PH recipebook"/></div>
           <p>Check recipes here, cook and share with your family and friends!</p>
-          <a href="https://phrecipebook.org/" target="_blank" rel="noreferrer">
-            <Button className={classes.root}>
-              Check it out
-            </Button>
-          </a>
-        </div>
+        </a>
       </div>
     </>
   )
