@@ -34,13 +34,27 @@
 
 
  /* media queries */
- @media only screen and (max-width: 415px) {
+ @media only screen and (min-width: 321px) and (max-width: 415px) {
    .container {
      width: 17rem;
      font-size: 1.2rem;
    }
+   .header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+   }
  }
 
+ @media only screen and (max-width: 320px) {
+   .container {
+     width: 15rem;
+     font-size: 1.1rem;
+   }
+   .header {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+   }
+ }
 
  @media only screen and (max-width: 1200px)  {
    .container {

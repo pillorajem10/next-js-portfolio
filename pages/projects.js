@@ -38,6 +38,10 @@ const Page = (props) => {
     <>
       <Head>
         <title>Jem Pillora | Projects</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url" content="https://jempillora.vercel.app/projects" key="ogurl" />
+        <meta property="og:site_name" content="Jem Pillora" key="ogsitename" />
+        <meta property="og:title" content="Jem Pillora | Projects" key="ogtitle" />
       </Head>
       <div className={styles.main}>
         <a href="https://rptgen.net/revamp/login" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>

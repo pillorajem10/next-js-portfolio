@@ -67,8 +67,8 @@ const Home = (props) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jempillora.vercel.app/" key="og:url"/> */}
         <meta property="og:url" content="https://jempillora.vercel.app/" key="ogurl" />
-        <meta property="og:site_name" content="JemPillora" key="ogsitename" />
-        <meta property="og:title" content="JemPillora" key="ogtitle" />
+        <meta property="og:site_name" content="Jem Pillora" key="ogsitename" />
+        <meta property="og:title" content="Jem Pillora" key="ogtitle" />
       </Head>
       <div data-aos="zoom-in" className={styles.leftContainer}>
         <p className={styles.header}>Hi! My name is Jem Pillora</p>
