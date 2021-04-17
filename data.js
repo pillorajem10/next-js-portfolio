@@ -32,7 +32,7 @@ export const data = {
       href: 'https://redux.js.org/'
     },
     {
-      name:"Ubuntu (Linux)",
+      name:"Ubuntu",
       images:"/images/ubuntu1.png",
       href: 'https://ubuntu.com/'
     },
