@@ -2,6 +2,7 @@ import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
 import theme from '../src/theme';
+import logo from '../public/logo.png'
 
 export default class MyDocument extends Document {
   render() {
@@ -11,7 +12,7 @@ export default class MyDocument extends Document {
           {/* PWA primary color */}
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <meta property="og:image" content="%PUBLIC_URL%/logo.png" key="ogimage" />
+          <meta property="og:image" content={logo} key="ogimage" />
           <meta property="og:description" content="Full-stack developer that can create your website for your business" key="ogdesc" />
           {/*<meta name="description" content="Full-stack developer" />
           <meta name="keywords" content="full-stack developer, MERN stack developer, freelance developer" />
