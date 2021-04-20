@@ -20,7 +20,7 @@
 
 .image {
   object-fit: cover;
-  max-width:15rem
+  max-width:100%
 }
 
 .imageBg {
@@ -46,9 +46,7 @@
 
 
 @media only screen and (max-width: 368px) {
-  .image {
-    width: 10rem;
-  }
+
 }
 
 @media only screen and (max-width: 1200px)  {

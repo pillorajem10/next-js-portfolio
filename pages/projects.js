@@ -10,8 +10,8 @@ import 'aos/dist/aos.css';
 import { Button, withStyles } from '@material-ui/core';
 
 //images
-import rbook from '../public/images/recipebook.png';
-import rptgen from '../public/images/logo.png';
+import rbook from '../public/images/rbook_all.png';
+import rptgen from '../public/images/rptpage.png';
 
 // We can inject some CSS into the DOM.
 const buttonStyles = {
@@ -47,12 +47,12 @@ const Page = (props) => {
         <a href="https://rptgen.net/revamp/login" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
           <p className={styles.image}>Rptgen-v2 (Revamp)</p>
           <div className={styles.imageBg}><img className={styles.image} src={rptgen} alt="Rptgen revamp"/></div>
-          <p>A report generating tool (PTP, DFR, RFA, PR2, etc). Developed by pillo, kula, colditz.</p>
+          <p>A document generating tool (PTP, DFR, RFA, PR2) for healthcare, insurance and other legal purposes.</p>
         </a>
         <a href="https://phrecipebook.org/" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
           <p className="container-title">PH Recipebook</p>
           <div className={styles.imageBg1}><img className={styles.image} src={rbook} alt="PH recipebook"/></div>
-          <p>Check recipes here, cook and share with your family and friends!</p>
+          <p>A website for beginner cooks to learn easy recipe dishes to share for their family and friends</p>
         </a>
       </div>
     </>

@@ -96,9 +96,9 @@ const Home = (props) => {
             Linked-in
           </Button>
         </a>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkHgCMpDgvnKpvWRWVjjRGRsdqCTxtPkHlZJrjHnVzWRRSMNwrQKlTdpdZFvzKjxwxBSNw" target="_blank" rel="noreferrer">
+        <a href="mailto:pillorajem10@gmail.com">
           <Button startIcon={<EmailIcon/>} className={classes.root}>
-            gmail
+            pillorajem10@gmail.com
           </Button>
         </a>
       </div>
