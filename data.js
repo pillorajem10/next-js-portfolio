@@ -5,7 +5,7 @@ import InfoIcon from '@material-ui/icons/Info';
 export const data = {
   skills:[
     {
-      name:'React',
+      name:'React/React-Native',
       images:'/images/react.png',
       href: 'https://reactjs.org/'
     },
