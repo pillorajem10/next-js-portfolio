@@ -12,6 +12,7 @@ import { Button, withStyles } from '@material-ui/core';
 //images
 import rbook from '../public/images/rbook_all.png';
 import rptgen from '../public/images/rptpage.png';
+import jumbogold from '../public/images/jumbogold.png';
 
 // We can inject some CSS into the DOM.
 const buttonStyles = {
@@ -52,9 +53,15 @@ const Page = (props) => {
         <a href="https://phrecipebook.org/" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
           <p className="container-title">PH Recipebook</p>
           <div className={styles.imageBg1}><img className={styles.image} src={rbook} alt="PH recipebook"/></div>
-          <p>A website for beginner cooks to learn easy recipe dishes to share for their family and friends</p>
+          <p>A website for beginner cooks to learn easy recipe dishes to share for their family and friends.</p>
+        </a>
+        <a href="https://hapichair.com/jumbogold/" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
+          <p className="container-title">Jumbo Gold & Diamond trader (ON GOING)</p>
+          <div className={styles.imageBg1}><img className={styles.image} src={jumbogold} alt="Jumbo Gold & Diamond trader"/></div>
+          <p>An ecommerce website for diamond buyers to buy and browse online their desired diamonds for their love ones or for themselves.</p>
         </a>
       </div>
+      <div style={{ marginTop: "2rem" }}/>
     </>
   )
 }
