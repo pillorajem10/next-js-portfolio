@@ -55,7 +55,7 @@ const Page = (props) => {
           <div className={styles.imageBg1}><img className={styles.image} src={rbook} alt="PH recipebook"/></div>
           <p>A website for beginner cooks to learn easy recipe dishes to share for their family and friends.</p>
         </a>
-        <a href="https://hapichair.com/jumbogold/" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
+        <a href="https://hapichair.com/" target="_blank" rel="noreferrer" data-aos="zoom-in" className={styles.container}>
           <p className="container-title">Jumbo Gold & Diamond trader (ON GOING)</p>
           <div className={styles.imageBg1}><img className={styles.image} src={jumbogold} alt="Jumbo Gold & Diamond trader"/></div>
           <p>An ecommerce website for diamond buyers to buy and browse online their desired diamonds for their love ones or for themselves.</p>
